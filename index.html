@@ -4,13 +4,143 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Example of Bootstrap 3 Two Column Grid Layouts for Tablets and Desktops</title>
+<title class="title">The Risinger Experience</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Sarabun:300,400,800" rel="stylesheet"> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<!--ALL of the HTML below goes between your two body tags-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand">
+      	<img class="logo" src="img/tre-banner.png">
+      </a>
+    </div>
+    <!-- Collection of nav links and other content for toggling -->
+    <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li class="tags"><a href="#about">About</a></li>
+        <li class="tags"><a href="#episodes">Episodes</a></li>
+        <li class="tags"><a href="#featured_guests">Featured Guests</a></li>
+        <li class="tags"><a href="#process">My Process</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--I've wrapped "jumbtron" in the custom div below-->
+<div class="full_width_header">
+<!--JUMBOTRON-->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="jumbotron">
+          <h1>The Risinger Experience</h1>
+          <p>A podcast about art, sports culture, and digital media.</p>
+          <p><a href="#episodes" class="btn btn-primary btn-lg btn-transition">Listen Now</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--ABOUT-->
+<div class="more_padding"  id="about">
+  <div class="container">
+    <!--Row with two columns divided in 1:2 ratio-->
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Welcome</h2>
+        <p>This podcast was created to fill a void that CTRL X left. Still being about art and culture, this podcast delivers lessons, anecdotes, and helpful discussions about sports media. Each episode is hosted by Matthew Risinger and features a special guest, someone who is an expert in their respective field. No matter where you are, listening to The Risinger Experience will bring you knowledge and pleasure.</p>
+        <p>Special guests include: Tyson Beck, Chris Ard, Kenton Hessler, Daniel Goldfarb, Samuel Silverman, Christopher Stoney, Meech Robinson, Tony Hunyh, and many more!</p>
+        </div>
+    </div>
+  </div>
+</div>
+<!--SHOWCASE-->
+<div class="background_coral more_padding" id="episodes">
+  <div class="container">     
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="h2_episodes">Episodes (or will become episode links w/pictures) For now, Social Medias</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="https://www.instagram.com/therisingerexperience"><img src="img/tre_ig.jpg" class="img-responsive mobile-img"></a>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://www.matthewrisinger.com"><img src="img/tre_rd.jpg" class="img-responsive mobile-img"></a>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://www.soundcloud.com/therisingerexperience"><img src="img/tre_soundcloud.jpg" class="img-responsive mobile-img"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--SHOWCASE #2-->
+<div class="background_gray more_padding" id="featured_guests">
+  <div class="bs-example">
+    <div class="container">
+        <div class="row">
+          <h2 class="h2_guests">Featured Guests</h2>
+            <div class="col-xs-3">
+                <a href="https://twitter.com/tysonbeckdesign" class="thumbnail">
+                    <img src="img/guests/tyson_beck.gif" alt="125x125">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="https://twitter.com/theardist" class="thumbnail">
+                    <img src="img/guests/chris_ard.jpg" alt="125x125">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="https://twitter.com/MjMacfadden" class="thumbnail">
+                    <img src="img/guests/michael_macfadden.jpg" alt="125x125">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="https://twitter.com/tony__huynh" class="thumbnail">
+                    <img src="img/guests/tony_h.jpg" alt="125x125">
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--LAUNCH Cycle-->
+
+<div class="background_black more_padding" id="process">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="demo-content">
+          <!--Look at the width and height attributes below-->
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS18y4d_ZOVSGDew_nBfw5BRBKrN586S8LGjPI4P9UQaesfWXBs2gbGtFtDzzjNF0l0ESWIB_nboehB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>    
+        </div>
+      </div>
+      <div class="col-sm-4">
+          <h2>The LAUNCH Cycle</h2>
+          <p>This project was created as a result of the LAUNCH cycle. If you'd like to learn more about this process, feel free to look at the website below for more information.</p>
+        <p><strong><a href="http://thelaunchcycle.com/">The LAUNCH Cycle</a></strong></p>
+        <p>This google slide presentation offers some insight into my ideation and creation of this project, spanning the length of an academic semester and being carried much past that semester.</p>
+      </div>
+    </div>
+</div>
+</div>
     
 </body>
 </html>                            

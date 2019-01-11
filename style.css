@@ -1,0 +1,110 @@
+
+/*This animates the link transitions*/
+html{ 
+	scroll-behavior:smooth;
+}
+
+/*This adds space to the top to accomodate the fixed navigation bar*/
+body{
+  padding-top:50px;
+}
+
+/*I'm using a Google Font for all of my header objects*/
+h1, h2, h3, h4, h5 h6, p, 
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: 'Sarabun', sans-serif;
+  font-weight:800;
+}
+p{
+  font-weight:300;
+  font-size:20px;
+}
+h2, .h2{
+  margin-bottom:30px;
+}
+
+.h2_episodes{
+  color:#fff;
+}
+.btn,.btn-primary{
+  background:#f37165;
+  border-color:#eee;
+}
+.btn-primary:hover{
+  background:#ec4e3f;
+  border-color:#000;
+}
+.btn-primary:active:focus{
+  background:#e13e2f;
+}
+.tags{
+  font-family: "Sarabun", sans-serif;
+}
+.jumbotron h1{
+  font-family: 'Sarabun';
+    font-weight: 800;
+    font-style: normal;
+    max-width: 500px;
+}
+
+.full_width_header{
+  background-image:url(img/tre_mic_banner.jpg);
+  background-size:cover;
+  background-position:center;
+  padding-bottom:150px;
+}
+.jumbotron{
+  background-color:transparent;
+  padding-top:100px;
+}
+.jumbotron h1{
+  color:#000;
+  font-size:72px;
+}
+.jumbotron p{
+  color:#f1f1f1;
+  font-size:28px;
+  text-shadow: 1px 1px 1px #000000;
+}
+.btn-transition{
+  transition:.25s;
+}
+.more_padding{
+  padding:50px 0;
+}
+.background_coral{
+  background:#f37165;
+}
+.background_black{
+  background:#000;
+}
+.background_black h2, .background_black p{
+  color:#FFF;
+}
+iframe{
+  width:100%;
+  max-width:720px;
+  margin:0 auto;
+  display:block;
+}
+.h2_guests{
+  color:#f37165 !important;
+}
+.logo{
+  max-width:300px ;
+}
+.background_gray{
+  background:#cfcfcf;
+}
+@media(max-width:767px){
+  .jumbotron h1{
+    font-size:24px;
+}
+@media(max-width:767px){
+  .logo{
+    max-width:220px;
+  }
+  .mobile-img{
+    padding-bottom: 20px;
+  }
+}
